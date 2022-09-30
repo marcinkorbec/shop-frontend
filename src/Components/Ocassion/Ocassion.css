@@ -1,0 +1,29 @@
+.ner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.promotion {
+  margin-right: 80px!important;
+}
+
+.promotion-cards {
+  display: flex;
+  width: 1030px;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-height: 800px;
+}
+
+@media (max-width: 1200px) {
+  .promotion-cards {
+    gap: 10px;
+  }
+
+  .promotion {
+    margin-right: 40px!important;
+  }
+}

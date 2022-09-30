@@ -1,0 +1,119 @@
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+header,
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+.logo img {
+  height: 54px;
+  width: 109px;
+  padding-right: 10px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+#search,
+#categories {
+  border-radius: 0;
+  min-height: 35px !important;
+  min-width: 40px;
+  border-color: #1c3f3a;
+  border-right-style: none;
+}
+
+#search {
+  min-width: 210px;
+  min-height: 80px;
+}
+
+.bi-search,
+.bi-person,
+.bi-chat-left-dots,
+.bi-cart {
+  background-color: transparent;
+}
+
+.categories-submit {
+  background-color: #1c3f3a;
+}
+
+.bg-light {
+  background-color: inherit !important;
+}
+
+#basic-navbar-nav {
+  display: flex!important;
+  justify-content: space-between;
+}
+
+#basic-nav-dropdown {
+  font-size: 16px;
+  font-weight: 600;
+  color: #121212;
+}
+
+option {
+  font-weight: normal;
+  font-size: 16px;
+  display: block;
+  white-space: nowrap;
+  min-height: 1.2em;
+  padding: 0 2px 1px;
+}
+
+.dropdown-toggle::after {
+  position: relative;
+  top: 7px;
+  content: url('../../assets/img/chevron-down.svg');
+  border-top: 0.1em solid transparent;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+}
+
+.border {
+  border: 1px solid black !important;
+}
+.user-account-buttons {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-around;
+  padding-left: 10px;
+}
+
+.form-select {
+  font-size: 16px;
+  font-weight: 400;
+  color: #6c757d;
+  min-height: 35px;
+  line-height: 24px;
+}
+
+@media (min-width: 1920px) {
+  .form-inline {
+    min-width: 612px;
+  }
+}

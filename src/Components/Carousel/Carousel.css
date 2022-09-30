@@ -1,0 +1,72 @@
+/* CAROUSEL STYLES */
+
+.carousel-caption {
+  width: 613px;
+  position: absolute;
+  top: 7%;
+  left: 15%;
+  color: #fff;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0;
+  gap: 25px;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 30px;
+  height: 30px;
+}
+
+.slider-button {
+  width: 215px;
+}
+
+.carousel-indicators {
+  justify-content: flex-end;
+  padding: 0;
+  margin-right: 5%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+
+.caption h1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 68px;
+  line-height: 119%;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+}
+
+.caption h3 {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.03em;
+  max-width: 460px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url('../../assets/img/Slider - strzałki.png');
+  height: 50px;
+  width: 50px;
+}
+
+.carousel-control-next-icon {
+  background-image: url('../../assets/img/Slider - strzałki2.png');
+  height: 50px;
+  width: 50px;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 8%;
+}

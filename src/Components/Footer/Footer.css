@@ -1,0 +1,51 @@
+footer {
+  width: 100%;
+  background-color: #212121;
+  height: 460px;
+  color: white
+}
+
+.footer-wrapper {
+  padding: 80px 112px 30px 112px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.footer-about {
+  max-width: 587px;
+}
+
+.footer-about p {
+  font-size: 17px;
+}
+
+.your-account,
+.your-order,
+.your-rules,
+.company-contact {
+  width: 267px;
+}
+
+
+.your-account a,
+.your-order a,
+.your-rules a,
+.company-contact a{
+  text-decoration: none;
+  color: white;
+  line-height: 25px;
+}
+
+.copyright {
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #101313;
+  color: white;
+  line-height: 21px;
+}
+.copyright div p {
+  padding-top: 20px;
+}

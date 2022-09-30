@@ -1,0 +1,40 @@
+.card {
+  border-radius: 0;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+}
+.card-img,
+.card-img-top {
+  width: 80%;
+}
+
+.card-img-container {
+  display: flex;
+  margin: 10%;
+  justify-content: center;
+}
+
+#card-price {
+  font-size: 27px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.h5 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.card-text {
+  font-weight: 600;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-body {
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+
+#zl {
+  position: relative;
+  bottom: 3px;
+}
