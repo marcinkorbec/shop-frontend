@@ -1,0 +1,29 @@
+.green-stripe {
+  display: flex;
+  background-color: #034A40;
+  height: 46px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.green-container {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #FFFFFF;
+  gap: 20px;
+}
+
+.green-container div img {
+  position: relative;
+  top: 5px;
+  height: 15px;
+}
+
+.green-container div {
+  display: flex;
+  height: 25px;
+}
