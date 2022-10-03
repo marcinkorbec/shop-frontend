@@ -29,6 +29,14 @@ export const CategoryName = () => {
           <div className='subcathegory-name'>
             <p>Nazwa podkategorii</p>
           </div>
+          <div className='subcathegory-name'>
+            <p>Nazwa podkategorii</p>
+          </div>
+          <div className='arrow-right'>
+            <a href='/'>
+              <img src={require('../../assets/img/Slider - strzałki3.png')} alt='' />
+            </a>
+          </div>
         </div>
       </div>
     </div>
