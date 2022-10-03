@@ -4,6 +4,7 @@ import { Footer } from '../../Components/Footer/Footer';
 import { TrustedBranches } from '../../Components/TrustedBranches/TrustedBranches';
 import { GreenStripe } from '../../Components/GreenStripe/GreenStripe';
 import { CategoryName } from '../../Components/CategoryName/CategoryName';
+import { SectionCathegory } from '../../Components/SectionCathegory/SectionCathegory';
 
 export const HomepageCategory = () => {
   return (
@@ -12,6 +13,7 @@ export const HomepageCategory = () => {
       <GreenStripe />
       <CategoryName />
       <hr />
+      <SectionCathegory />
       <TrustedBranches />
       <Footer />
     </>
