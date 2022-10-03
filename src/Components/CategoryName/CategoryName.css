@@ -62,3 +62,9 @@
   align-items: center;
   gap: 20px;
 }
+
+hr {
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid #1C3F3A
+}
