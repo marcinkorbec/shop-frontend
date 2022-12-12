@@ -1,9 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import './ProductCardHomepage.css';
 
-export const ProductCard = (props) => {
+export const ProductCard = (width) => {
   return (
-    <Card style={props}>
+    <Card style={width}>
       <div className='card-img-container'>
         <Card.Img variant='top' src={require('../../assets/img/Zdjęcie produktu.png')} />
       </div>
