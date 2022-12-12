@@ -1,0 +1,35 @@
+.contain ul {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contain ul li {
+  list-style: none;
+  width: 50px;
+  height: 50px;
+  background: white;
+}
+
+.contain ul li a {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  align-items: center;
+  justify-content: center;
+  color:  #018B78;
+}
+
+ul .selected {
+  background: #018B78!important;
+  color: white!important;
+}
+
+.contain ul li:hover {
+  border: 2px solid #018B78;
+}

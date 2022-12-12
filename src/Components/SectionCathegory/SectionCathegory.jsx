@@ -1,6 +1,7 @@
 import React from 'react';
 import './SectionCathegory.css';
 import { ProductCard } from '../ProductCardHomepage/ProductCard';
+import { PaginatedItems } from '../Pagination/Pagination';
 
 export const SectionCathegory = () => {
   return (
@@ -109,6 +110,9 @@ export const SectionCathegory = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className='contain'>
+        <PaginatedItems itemsPerPage={10} />
       </div>
     </>
   );
